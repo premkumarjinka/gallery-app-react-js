@@ -1,0 +1,19 @@
+/* Write your code here. */
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0px;
+  padding: 0px;
+}
+.thumb {
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  opacity: 0.5;
+  margin-left: 0px;
+}
+.selected {
+  opacity: 0;
+}
